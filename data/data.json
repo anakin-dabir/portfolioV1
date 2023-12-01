@@ -26,6 +26,16 @@
     "portfolioTitle": "Portfolio",
     "projects": [
       {
+        "name": "Portfolio V1",
+        "projectUrl": "https://protfoli.vercel.app/",
+        "repoUrl": "https://github.com/anakin-dabir/portfolio",
+        "imgPath": "portfolio.png",
+        "imgAlt": "Portfolio v1 preview",
+        "summary": "Portfolio based on v1 design",
+        "keyFeatures": ["Pixel perfect design", "Absolute positioning", "Fully Responsive"],
+        "technologies": ["ReactJS", "TailwindCSS"]
+      },
+      {
         "name": "Whale-Dashboard",
         "projectUrl": "https://whale-dashboard.vercel.app/",
         "repoUrl": "https://github.com/anakin-dabir/Whale-Dashboard",
@@ -64,16 +74,6 @@
         "summary": "Fully responsive Wons dashboard figma design",
         "keyFeatures": ["Pixel perfect design", "Absolute positioning", "Custom classes"],
         "technologies": ["ReactJS", "Material-UI", "@amCharts5"]
-      },
-      {
-        "name": "Portfolio V1",
-        "projectUrl": "https://protfoli.vercel.app/",
-        "repoUrl": "https://github.com/anakin-dabir/portfolio",
-        "imgPath": "portfolio.png",
-        "imgAlt": "Portfolio v1 preview",
-        "summary": "Portfolio based on v1 design",
-        "keyFeatures": ["Pixel perfect design", "Absolute positioning", "Fully Responsive"],
-        "technologies": ["ReactJS", "TailwindCSS"]
       },
       {
         "name": "Portfolio V2",
