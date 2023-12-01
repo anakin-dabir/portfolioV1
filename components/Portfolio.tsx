@@ -82,6 +82,7 @@ export default function Portfolio({portfolioData: t}: {portfolioData: PortfolioD
                       placeholder='blur'
                       src={`/${project.imgPath}`}
                       width={600}
+                      objectFit='cover'
                     />
                   </div>
 

@@ -109,7 +109,7 @@ export default function ElevateAppBar() {
                 sx={{display: {md: 'none'}}}
                 onClick={handleDrawerToggle}
               >
-                <MenuIcon color='secondary' fontSize='large' />
+                <MenuIcon color='primary' fontSize='large' />
               </IconButton>
             </Toolbar>
           </Container>

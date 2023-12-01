@@ -12,7 +12,6 @@ import {
   Divider,
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-
 import Link from './Link';
 
 interface MenuItems {
@@ -37,11 +36,12 @@ export default function NavigationDrawer(props: NavigationDrawerProps) {
           justifyContent: 'flex-end',
           alignItems: 'center',
           px: 1,
+          width: '300px',
           minHeight: {xs: 48, sm: 64},
         }}
       >
         <IconButton size='large' onClick={onClose}>
-          <CloseIcon color='secondary' fontSize='large' />
+          <CloseIcon color='primary' fontSize='large' />
         </IconButton>
       </Box>
       <Divider />
@@ -53,7 +53,7 @@ export default function NavigationDrawer(props: NavigationDrawerProps) {
             {...{component: Link, href: item.link, noLinkStyle: true}}
           >
             <ListItemIcon>{item.icon}</ListItemIcon>
-            <ListItemText primary={item.name} />
+            <ListItemText sx={{color: '#ffffff'}} primary={item.name} />
           </ListItem>
         ))}
       </List>

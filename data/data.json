@@ -74,6 +74,46 @@
         "summary": "Portfolio based on v1 design",
         "keyFeatures": ["Pixel perfect design", "Absolute positioning", "Fully Responsive"],
         "technologies": ["ReactJS", "TailwindCSS"]
+      },
+      {
+        "name": "Portfolio V2",
+        "projectUrl": "https://protfoli-v2.vercel.app/",
+        "repoUrl": "https://github.com/anakin-dabir/portfolioV2",
+        "imgPath": "portfoliov2.png",
+        "imgAlt": "Portfolio v2 preview",
+        "summary": "Portfolio based on v2 design",
+        "keyFeatures": ["Pixel perfect design", "Absolute positioning", "Fully Responsive"],
+        "technologies": ["NextJS", "Material-UI", "TypeScript"]
+      },
+      {
+        "name": "Besnik",
+        "projectUrl": "https://besnik-landingpage.vercel.app/",
+        "repoUrl": "https://github.com/anakin-dabir/Besnik-landingPage",
+        "imgPath": "bersek.png",
+        "imgAlt": "Bersek v1 preview",
+        "summary": "Landing Page based on figma design",
+        "keyFeatures": ["Pixel perfect design", "Absolute positioning", "Fully Responsive"],
+        "technologies": ["ReactJS", "Material-UI"]
+      },
+      {
+        "name": "Danku",
+        "projectUrl": "https://danku-landingpage.vercel.app/",
+        "repoUrl": "https://github.com/anakin-dabir/Danku-LandingPage",
+        "imgPath": "durmat.png",
+        "imgAlt": "durmat v1 preview",
+        "summary": "Landing Page based on figma design",
+        "keyFeatures": ["Pixel perfect design", "Absolute positioning", "Fully Responsive"],
+        "technologies": ["ReactJS", "TailwindCSS", "Framer Motion"]
+      },
+      {
+        "name": "Cruip",
+        "projectUrl": "https://cruip-landingpage.vercel.app/",
+        "repoUrl": "https://github.com/anakin-dabir/Cruip-LandingPage",
+        "imgPath": "cruis.png",
+        "imgAlt": "Becruisrsek v1 preview",
+        "summary": "Landing Page based on figma design",
+        "keyFeatures": ["Pixel perfect design", "Absolute positioning", "Fully Responsive"],
+        "technologies": ["NextJS", "TailwindCSS", "Framer Motion", "TypeScript"]
       }
     ]
   },
