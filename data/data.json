@@ -1,0 +1,96 @@
+{
+  "defaultSeo": {
+    "title": "Anakin Dabir | Portfolio",
+    "description": "Creating beautiful experiences",
+    "url": "",
+    "previewImage": "https://t3.ftcdn.net/jpg/03/65/42/00/360_F_365420014_xjsSDkKzrhq4gr9GFzP6S97H7MJyNI5B.jpg"
+  },
+  "heroData": {
+    "greetings": "👋, ",
+    "introduction": "Anakin Dabir ...",
+    "role": "Front-end Developer",
+    "paragraph": "doing creative coding & creating beautiful experiences",
+    "button1": "Check my work",
+    "button2": "Contact me"
+  },
+  "aboutData": {
+    "aboutTitle": "About me",
+    "aboutItems": [
+      "I'm a self base front-end developer espacially in React & Next JS",
+      "I like to design and build beautiful and functional websites and web applications, taking special care to produce clear and understandable code.",
+      "I love my job and i am not afraid of hard work."
+    ],
+    "skillsTitle": "Skills"
+  },
+  "portfolioData": {
+    "portfolioTitle": "Portfolio",
+    "projects": [
+      {
+        "name": "Whale-Dashboard",
+        "projectUrl": "https://whale-dashboard.vercel.app/",
+        "repoUrl": "https://github.com/anakin-dabir/Whale-Dashboard",
+        "imgPath": "whale.png",
+        "imgAlt": "whale-dashboard",
+        "summary": "Figma Design of Dashboard Trading App",
+        "keyFeatures": [
+          "Pixel perfect design",
+          "User-friendly dashboard",
+          "Live preview",
+          "Absolute positioning"
+        ],
+        "technologies": ["ReactJS", "TypeScript", "TailwindCSS", "Recharts"]
+      },
+      {
+        "name": "SkillStreet",
+        "projectUrl": "https://skill-street.vercel.app/",
+        "repoUrl": "https://github.com/anakin-dabir/SkillStreet",
+        "imgPath": "skill.png",
+        "imgAlt": "SkillStreet preview",
+        "summary": "Reels app converted from figma design",
+        "keyFeatures": [
+          "Pixel perfect design",
+          "User-friendly website",
+          "Absolute positioning",
+          "Fully Responsive"
+        ],
+        "technologies": ["ReactJS", "TypeScript", "TailwindCSS"]
+      },
+      {
+        "name": "Wons-Dashboard",
+        "projectUrl": "#",
+        "repoUrl": "https://github.com/anakin-dabir/Wons-Dashboard",
+        "imgPath": "wons-dashboard.png",
+        "imgAlt": "Wons preview",
+        "summary": "Fully responsive Wons dashboard figma design",
+        "keyFeatures": ["Pixel perfect design", "Absolute positioning", "Custom classes"],
+        "technologies": ["ReactJS", "Material-UI", "@amCharts5"]
+      },
+      {
+        "name": "Portfolio V1",
+        "projectUrl": "https://protfoli.vercel.app/",
+        "repoUrl": "https://github.com/anakin-dabir/portfolio",
+        "imgPath": "portfolio.png",
+        "imgAlt": "Portfolio v1 preview",
+        "summary": "Portfolio based on v1 design",
+        "keyFeatures": ["Pixel perfect design", "Absolute positioning", "Fully Responsive"],
+        "technologies": ["ReactJS", "TailwindCSS"]
+      }
+    ]
+  },
+  "contactData": {
+    "title": "Contact",
+    "p1": "If you are interested in hiring me for your project please use the form below to get in touch. Want to know how I work and what I can offer? Check out my ",
+    "p4": "fiverr",
+    "resumeLink": "https://www.fiverr.com/s/Yz2bgz",
+    "subtitle": "You can also find me on the following channels",
+    "formTitle": "Get in touch",
+    "firstNameLabel": "First Name",
+    "lastNameLabel": "Last Name",
+    "emailLabel": "Email",
+    "messageLabel": "Message",
+    "placeholder": "Feel free to include any details.",
+    "submitButton": "send",
+    "requiredErrorMessage": "Required",
+    "invalidEmailErrorMessage": "Invalid email format"
+  }
+}
