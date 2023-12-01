@@ -3,9 +3,9 @@
 
 import Head from 'next/head';
 import {GetStaticProps} from 'next';
-import HeroSection from '../components/Hero/Hero';
-import AboutSection from '../components/About/About';
-import PortfolioSection from '../components/Portfolio/Portfolio';
+import HeroSection from '../components/Hero';
+import AboutSection from '../components/About';
+import PortfolioSection from '../components/Portfolio';
 import ContactSection from '../components/Contact';
 
 export const getStaticProps: GetStaticProps = async () => {

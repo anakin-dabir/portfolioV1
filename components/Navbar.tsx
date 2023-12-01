@@ -22,9 +22,9 @@ import {
   PermIdentity as PermIdentityIcon,
 } from '@mui/icons-material';
 import {useRouter} from 'next/router';
-import Link from '../Link/Link';
-import AnimatedLink from '../AnimatedLink/AnimatedLink';
-import NavigationDrawer from '../NavigationDrawer/NavigationDrawer';
+import Link from './Link';
+import AnimatedLink from './AnimatedLink';
+import NavigationDrawer from './NavigationDrawer';
 
 interface Props {
   children: React.ReactElement;

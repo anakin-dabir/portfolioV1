@@ -6,8 +6,8 @@ import Head from 'next/head';
 import {ThemeProvider} from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import theme from '../theme/theme';
-import Navbar from '../components/Navbar/Navbar';
-import Footer from '../components/Footer/Footer';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 export default function MyApp(props: AppProps) {
   const {Component, pageProps} = props;

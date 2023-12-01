@@ -16,7 +16,7 @@ import {
 } from '@mui/material/';
 import {Code} from '@mui/icons-material';
 
-import skillIcons from '../constants/skillIcons';
+import skillIcons from './constants/skillIcons';
 
 const CustomDivider = styled(Divider)(({theme}) => ({
   height: '4px',
@@ -30,7 +30,7 @@ interface AboutData {
   skillsTitle: string;
 }
 
-export default function About({aboutData: t}: {aboutData: AboutData}) {
+const About = ({aboutData: t}: {aboutData: AboutData}) => {
   return (
     <Box
       component='section'
@@ -100,4 +100,6 @@ export default function About({aboutData: t}: {aboutData: AboutData}) {
       </Container>
     </Box>
   );
-}
+};
+
+export default About;

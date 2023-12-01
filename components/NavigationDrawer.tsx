@@ -13,7 +13,7 @@ import {
 } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 
-import Link from '../Link/Link';
+import Link from './Link';
 
 interface MenuItems {
   link: string;

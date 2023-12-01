@@ -16,10 +16,10 @@ import {
   CardContent,
   IconButton,
 } from '@mui/material';
-import ShortCenteredDivider from '../ShortCenteredDivider/ShortCenteredDivider';
-import Link from '../Link/Link';
-import EmailSuccessMessage from '../EmailSuccessMessage/EmailSuccessMessage';
-import socialIcons from '../constants/socialIcons';
+import ShortCenteredDivider from './ShortCenteredDivider';
+import Link from './Link';
+import EmailSuccessMessage from './EmailSuccessMessage';
+import socialIcons from './constants/socialIcons';
 
 interface ContactData {
   title: string;
@@ -45,7 +45,7 @@ interface ContactFormFields {
   message: string;
 }
 
-export default function Contact({contactData: t}: {contactData: ContactData}) {
+const Contact = ({contactData: t}: {contactData: ContactData}) => {
   const [displayMessage, setDisplayMessage] = useState(false);
   const [senderFirstName, setSenderFirstName] = useState('');
 
@@ -222,4 +222,6 @@ export default function Contact({contactData: t}: {contactData: ContactData}) {
       </Container>
     </Box>
   );
-}
+};
+
+export default Contact;

@@ -19,9 +19,9 @@ import {
 } from '@mui/material/';
 import {ChevronRight, GitHub, Visibility} from '@mui/icons-material';
 
-import Link from '../Link/Link';
-import ShortCenteredDivider from '../ShortCenteredDivider/ShortCenteredDivider';
-import getDataUrlWithShimmerEffect from '../../utils/getDataUrlWithShimmerEffect';
+import Link from './Link';
+import ShortCenteredDivider from './ShortCenteredDivider';
+import getDataUrlWithShimmerEffect from '../utils/getDataUrlWithShimmerEffect';
 
 interface Project {
   name: string;

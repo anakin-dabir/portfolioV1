@@ -2,7 +2,7 @@
 // Saturday, September 30th 2023, 12:57 am
 
 import {styled} from '@mui/material/styles';
-import Link from '../Link/Link';
+import Link from './Link';
 
 const AnimatedLink = styled(Link)(() => ({
   padding: '12px 15px',

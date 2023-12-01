@@ -4,7 +4,7 @@
 import Image from 'next/legacy/image';
 import {Box, Typography, Card, CardContent, CardActionArea} from '@mui/material/';
 
-import getDataUrlWithShimmerEffect from '../../utils/getDataUrlWithShimmerEffect';
+import getDataUrlWithShimmerEffect from '../utils/getDataUrlWithShimmerEffect';
 
 interface RecentPostCardProps {
   title: string;

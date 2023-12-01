@@ -10,7 +10,7 @@ import {
   SiReact,
   SiRedux,
   SiMongodb,
-  SiMaterialui,
+  // SiMaterialui,
   SiBootstrap,
   SiNextdotjs,
   SiFirebase,
@@ -68,7 +68,7 @@ const skillLogos = [
     label: 'Tailwind CSS',
   },
   {
-    icon: <SiMaterialui title='Material UI' />,
+    // icon: <SiMaterialui title='Material UI' />,
     label: 'Material UI',
   },
   {

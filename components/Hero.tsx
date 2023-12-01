@@ -1,7 +1,7 @@
 // /components/Hero/Hero.tsx
 // Saturday, September 30th 2023, 12:57 am
 
-import { Box, Container, Button, Typography, Grid } from '@mui/material/';
+import {Box, Container, Button, Typography, Grid} from '@mui/material/';
 
 interface HeroData {
   greetings: string;
@@ -12,9 +12,9 @@ interface HeroData {
   button2: string;
 }
 
-export default function Hero({ heroData: t }: { heroData: HeroData }) {
+const Hero = ({heroData: t}: {heroData: HeroData}) => {
   return (
-    <Box component="section" id="home">
+    <Box component='section' id='home'>
       <Container
         sx={{
           minHeight: {
@@ -32,40 +32,30 @@ export default function Hero({ heroData: t }: { heroData: HeroData }) {
         }}
       >
         <Box mb={7}>
-          <Typography gutterBottom component="h4" variant="h5">
-            <Typography color="primary" component="span" variant="inherit">
+          <Typography gutterBottom component='h4' variant='h5'>
+            <Typography color='primary' component='span' variant='inherit'>
               {t.greetings}
             </Typography>
             {t.introduction}
           </Typography>
 
-          <Typography gutterBottom component="h1" variant="h2">
+          <Typography gutterBottom component='h1' variant='h2'>
             {t.role}
           </Typography>
 
-          <Typography color="textSecondary" component="p" variant="subtitle1">
+          <Typography color='textSecondary' component='p' variant='subtitle1'>
             {t.paragraph}
           </Typography>
         </Box>
 
         <Grid container spacing={2}>
           <Grid item>
-            <Button
-              color="primary"
-              href="#portfolio"
-              size="large"
-              variant="contained"
-            >
+            <Button color='primary' href='#portfolio' size='large' variant='contained'>
               {t.button1}
             </Button>
           </Grid>
           <Grid item>
-            <Button
-              color="primary"
-              href="#contact"
-              size="large"
-              variant="outlined"
-            >
+            <Button color='primary' href='#contact' size='large' variant='outlined'>
               {t.button2}
             </Button>
           </Grid>
@@ -73,4 +63,6 @@ export default function Hero({ heroData: t }: { heroData: HeroData }) {
       </Container>
     </Box>
   );
-}
+};
+
+export default Hero;

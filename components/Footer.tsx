@@ -3,7 +3,7 @@
 
 import {Fab} from '@mui/material/';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
-import {NextLinkComposed} from '../Link/Link';
+import {NextLinkComposed} from './Link';
 
 export default function Footer() {
   return (
