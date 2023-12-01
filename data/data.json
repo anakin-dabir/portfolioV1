@@ -57,7 +57,7 @@
       },
       {
         "name": "Wons-Dashboard",
-        "projectUrl": "#",
+        "projectUrl": "https://wons-dashboard.vercel.app/dashboard",
         "repoUrl": "https://github.com/anakin-dabir/Wons-Dashboard",
         "imgPath": "wons-dashboard.png",
         "imgAlt": "Wons preview",
