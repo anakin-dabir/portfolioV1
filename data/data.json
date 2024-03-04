@@ -1,13 +1,13 @@
 {
   "defaultSeo": {
-    "title": "Anakin Dabir | Portfolio",
+    "title": "Anakin Dabir | v1",
     "description": "Creating beautiful experiences",
     "url": "",
     "previewImage": "https://t3.ftcdn.net/jpg/03/65/42/00/360_F_365420014_xjsSDkKzrhq4gr9GFzP6S97H7MJyNI5B.jpg"
   },
   "heroData": {
     "greetings": "👋, ",
-    "introduction": "Anakin Dabir ...",
+    "introduction": "Talha here ...",
     "role": "Front-end Developer",
     "paragraph": "doing creative coding & creating beautiful experiences",
     "button1": "Check my work",
@@ -26,12 +26,12 @@
     "portfolioTitle": "Portfolio",
     "projects": [
       {
-        "name": "Portfolio V1",
-        "projectUrl": "https://protfoli.vercel.app/",
+        "name": "Portfolio v2",
+        "projectUrl": "https://v2.anakin-dabir.vercel.app/",
         "repoUrl": "https://github.com/anakin-dabir/portfolio",
         "imgPath": "portfolio.png",
-        "imgAlt": "Portfolio v1 preview",
-        "summary": "Portfolio based on v1 design",
+        "imgAlt": "Portfolio v2 preview",
+        "summary": "Portfolio based on v2 design",
         "keyFeatures": ["Pixel perfect design", "Absolute positioning", "Fully Responsive"],
         "technologies": ["ReactJS", "TailwindCSS"]
       },
@@ -74,16 +74,6 @@
         "summary": "Fully responsive Wons dashboard figma design",
         "keyFeatures": ["Pixel perfect design", "Absolute positioning", "Custom classes"],
         "technologies": ["ReactJS", "Material-UI", "@amCharts5"]
-      },
-      {
-        "name": "Portfolio V2",
-        "projectUrl": "https://protfoli-v2.vercel.app/",
-        "repoUrl": "https://github.com/anakin-dabir/portfolioV2",
-        "imgPath": "portfoliov2.png",
-        "imgAlt": "Portfolio v2 preview",
-        "summary": "Portfolio based on v2 design",
-        "keyFeatures": ["Pixel perfect design", "Absolute positioning", "Fully Responsive"],
-        "technologies": ["NextJS", "Material-UI", "TypeScript"]
       },
       {
         "name": "Besnik",
