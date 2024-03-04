@@ -83,7 +83,7 @@ export default function ElevateAppBar() {
                   variant='h6'
                   sx={{textTransform: 'lowercase', letterSpacing: 1, alignSelf: 'center'}}
                 >
-                  * anakin-dabir
+                  anakin_dabir
                 </Typography>
               </Link>
 
