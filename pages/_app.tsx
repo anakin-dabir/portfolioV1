@@ -14,7 +14,7 @@ export default function MyApp(props: AppProps) {
   return (
     <>
       <Head>
-        <title>Anakin Dabir Portfolio</title>
+        <title>Anakin Dabir | v1</title>
         <meta content='initial-scale=1, width=device-width' name='viewport' />
       </Head>
       <ThemeProvider theme={theme}>
